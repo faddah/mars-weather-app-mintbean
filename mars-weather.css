@@ -1,0 +1,26 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/05/13/17/mars.jpg)
+}
+
+h1{
+  text-align: center;
+  color: #D3D3D3
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  color: #D3D3D3;
+  text-align: center;
+}
+
+.main-container{
+  padding: 20px;
+}
+
+.box-temperature-display{
+  flex-wrap: wrap;
+}
