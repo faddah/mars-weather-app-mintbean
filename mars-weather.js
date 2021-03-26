@@ -14,7 +14,7 @@ const init = () => {
 
             const pressure = obj[finalDateKey].PRE.av;
 
-            //aconsole.log(temperature)
+            //console.log(temperature)
             // either here, use a filter to get just the last day weather pressure
             // in pascals, and put that in some HTML, or....
             console.log(pressure);
