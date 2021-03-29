@@ -48,3 +48,10 @@ body {
 .box-temperature-display {
     flex-wrap: nowrap;
 }
+
+.barometric-table {
+    border-spacing: 0.125rem;
+    /* margin: 5% -20%;
+    transform: translateX(25%); */
+    width: auto;
+}
