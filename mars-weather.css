@@ -66,6 +66,10 @@ th {
     min-width: 3rem;
 }
 
+.th-auto-width {
+    width: auto;
+}
+
 .pressure-head {
     min-width: 5rem;
 }
