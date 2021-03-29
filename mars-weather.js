@@ -49,9 +49,9 @@ const init = () => {
             dateSelector.innerHTML = formattedDate(currentDate);
             solDate.textContent = weatherKeys[1];
             min.textContent = barometerFormatted(mn);
-            max.textContent = barometerFormatted(PRE.mx);
-            avg.textContent = barometerFormatted(PRE.av);
-            readingsCount.textContent = PRE.ct;
+            max.textContent = barometerFormatted(mx);
+            avg.textContent = barometerFormatted(av);
+            readingsCount.textContent = ct;
         } catch (e) {
             console.log(`yo! error, bro... ${e}`);
             // console.log(e)
