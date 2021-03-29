@@ -35,6 +35,16 @@ body {
     padding: 20px;
 }
 
-.box-temperature-display{
-  flex-wrap: wrap;
+.insight-description {
+    background-color: sienna;
+    border: 3px solid darkred;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px brown;
+    font-size: 30px;
+    margin: 3% 20%;
+    padding: 3%;
+}
+
+.box-temperature-display {
+    flex-wrap: nowrap;
 }
