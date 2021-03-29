@@ -16,6 +16,8 @@ const init = () => {
 
     const barometerFormatted = pressure => `${parseFloat(pressure / 100).toFixed(4)} mb`;
 
+    const capitalize = string => string.charAt(0).toUpperCase() + string.slice(1);
+
 window.addEventListener('DOMContentLoaded', init);
 
 
