@@ -60,8 +60,10 @@ body {
 }
 
 .header-row {
-    font-size: 20px;
+    align-items: baseline;
+    font-size: 30px;
     font-weight: 900;
+    /* justify-content: center; */
 }
 
 th {
@@ -74,9 +76,9 @@ th {
 }
 
 .pressure-head {
-    min-width: 5rem;
+    min-width: 50px;
 }
 
 .table-data {
-    font-size: 18px;
+    font-size: 28px;
 }
