@@ -14,6 +14,8 @@ const init = () => {
         return `${weekday}, ${monthDate}-${month}-${year}<br />${hour}:${minutes}:${seconds}GMT`
     }
 
+    const barometerFormatted = pressure => `${parseFloat(pressure / 100).toFixed(4)} mb`;
+
 window.addEventListener('DOMContentLoaded', init);
 
 
