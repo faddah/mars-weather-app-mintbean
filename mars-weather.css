@@ -17,8 +17,12 @@ body {
 }
 
 
-  text-align: center;
-  color: #D3D3D3
+/* h1 {} */
+
+.page-title {
+    font-size: 60px;
+    text-align: center;
+    /*   #D3D3D3 */
 }
 
 .flex-container{
