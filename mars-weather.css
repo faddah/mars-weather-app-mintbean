@@ -5,8 +5,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Revalia&display=swap");
 * {
 }
-body{
-  background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/05/13/17/mars.jpg)
+
+body {
+    background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/05/13/17/mars.jpg);
+    color: lightgreen;
+    font-family: "Revalia", "B612", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 10% 2%;
 }
 
 h1{
