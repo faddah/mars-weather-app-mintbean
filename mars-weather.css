@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=B612&display=swap");
+@font-face {
+    font-family: "Andromeda";
+    src: url("./andromeda-2.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     box-sizing: border-box;
