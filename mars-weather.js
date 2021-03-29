@@ -18,6 +18,15 @@ const init = () => {
 
     const capitalize = string => string.charAt(0).toUpperCase() + string.slice(1);
 
+    const currentSeason = document.querySelector('#current-season')
+    const dateSelector = document.querySelector('#date');
+    const solDate = document.querySelector('#sol-date');
+    const avg = document.querySelector('#avg');
+    const min = document.querySelector('#min');
+    const max = document.querySelector('#max');
+    const readingsCount = document.querySelector('#readings-count');
+    // console.log(dateSelector, readingsCount, avg, min, max, solDate);
+
 window.addEventListener('DOMContentLoaded', init);
 
 
