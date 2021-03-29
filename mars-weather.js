@@ -1,17 +1,19 @@
 const init = () => {
     console.log(`mars b awll like, wazzzup, marvin?`);
-    var obj;
-    fetch('https://api.nasa.gov/insight_weather/?api_key=kOXVp1PTgPA1EcbLORoZMKoAQXamLVGpNeMCW4tJ&feedtype=json&ver=1.0')
-        .then(res => res.json())
-        .then(obj => {
-            sol = obj.sol_keys.slice(0, 7)
-                // console.log(sol)
-            console.log(obj)
-                //temperature = obj[sol].AT.av;
-                //aconsole.log(temperature)
-        })
-        .catch(e => console.log(e.message));
-}
+
+    const formattedDate = timestamp => {
+        const weekdays = ['Sun.', 'Mon.', 'Tue.', 'Wed.', 'Thur.', 'Fri.', 'Sat.'];
+        const months = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'Jun.', 'Jul.', 'Aug.', 'Sep.', 'Oct.', 'Nov.', 'Dec.'];
+        const weekday = weekdays[timestamp.getDay()];
+        const monthDate = timestamp.getDate();
+        const month = months[timestamp.getMonth()];
+        const year = timestamp.getFullYear();
+        const hour = timestamp.getHours();
+        const minutes = timestamp.getMinutes();
+        const seconds = timestamp.getSeconds();
+        return `${weekday}, ${monthDate}-${month}-${year}<br />${hour}:${minutes}:${seconds}GMT`
+    }
+
 window.addEventListener('DOMContentLoaded', init);
 
 
