@@ -25,15 +25,14 @@ body {
     /*   #D3D3D3 */
 }
 
-.flex-container{
-  display: flex;
-  flex-direction: column;
-  color: #D3D3D3;
-  text-align: center;
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.main-container{
-  padding: 20px;
+.main-container {
+    padding: 20px;
 }
 
 .box-temperature-display{
