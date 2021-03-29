@@ -69,3 +69,7 @@ th {
 .pressure-head {
     min-width: 5rem;
 }
+
+.table-data {
+    font-size: 18px;
+}
