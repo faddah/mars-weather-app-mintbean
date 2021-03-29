@@ -1,3 +1,4 @@
+import marsAPI from "./marsAPI";
 const init = () => {
     console.log(`mars b awll like, wazzzup, marvin?`);
 
