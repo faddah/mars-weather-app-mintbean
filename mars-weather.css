@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Revalia&display=swap");
 * {
+    box-sizing: border-box;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
     margin: 10% 2%;
 }
 
-h1{
+
   text-align: center;
   color: #D3D3D3
 }
