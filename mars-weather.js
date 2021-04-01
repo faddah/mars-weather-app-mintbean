@@ -61,8 +61,4 @@ const init = () => {
     getMarsWeather();
 
 }
-window.addEventListener('DOMContentLoaded', init);
-
-
-
-// API for NASA:  https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0
+document.readyState === 'loading' ? window.addEventListener('DOMContentLoaded', init) : init();
